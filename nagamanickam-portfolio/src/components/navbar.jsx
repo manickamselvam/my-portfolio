@@ -1,16 +1,22 @@
-import React from 'react'
-import './navbar.css'
-const navbar = () => {
-    return (
-        <div className='nav_bar_container'>
-            <a><img className='brand_name_icon' src='/images/NAG-artist-Logo-New.png' alt='Nag' /></a>
-            <div className='nav_bar_right_side_menu'>
-                <p className='menu_item_nav_bar'>Home</p>
-                <p className='menu_item_nav_bar'>About</p>
-                <p className='menu_item_nav_bar'>Contact</p>
-            </div>
-        </div>
-    )
-}
+import React from "react";
+import logo from "../assets/NAG-artist-Logo-New.png";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
-export default navbar
+const navbar = () => {
+  return (
+    <nav className=" mb-20 flex items-center justify-between py-6  ">
+      <div>
+        <img src={logo} alt="logo" className="h-14 w-14" />
+      </div>
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <FaLinkedin />
+        <FaGithub />
+        <FaInstagram />
+      </div>
+    </nav>
+  );
+};
+
+export default navbar;
