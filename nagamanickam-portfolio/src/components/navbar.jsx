@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6  ">
       <div>
@@ -19,4 +19,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
