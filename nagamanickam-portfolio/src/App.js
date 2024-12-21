@@ -1,5 +1,9 @@
+import About from "./components/About";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 function App() {
   return (
     <div className="overflow-x-hidden text-neutral-300 antiaaliased selection:bg-cyan-300 selection:text-cyaan-900">
@@ -9,6 +13,10 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
+        <About />
+        <Technologies />
+        <Experience />
+        <Projects />
       </div>
     </div>
   );
