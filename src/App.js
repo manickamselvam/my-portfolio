@@ -3,7 +3,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import HomeUp from "./components/HomeUp";
 
@@ -24,7 +24,7 @@ function App() {
           <About />
           <Technologies />
           <Experience />
-          <Projects />
+          {/* <Projects /> */}
           <Contact contactSection={contactSection} />
           <HomeUp homeUp={homeUp} />
         </div>

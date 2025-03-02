@@ -13,8 +13,9 @@ const HomeUp = ({ homeUp }) => {
     }
   };
   return (
-    <div className="flex justify-center my-5">
+    <div className="flex justify-center my-5 items-center flex-col">
       <FaArrowCircleUp className="text-4xl" onClick={navigateToTop} />
+      <span className="my-1">Back to Top</span>
     </div>
   );
 };

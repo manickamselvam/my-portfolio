@@ -3,38 +3,23 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Experienced JavaScript Developer with over 2 years of experience in designing, developing, and implementing interactive web applications. Proficient in core JavaScript along with HTML, CSS, and responsive design principles. Skilled in utilizing version control systems like Git and working with RESTful APIs.`;
+export const HERO_CONTENT = `Experienced JavaScript Developer with over 3 years of experience in designing, developing, and implementing interactive web applications. Proficient in core JavaScript along with HTML, CSS, and responsive design principles. Skilled in utilizing version control systems like Git and working with RESTful APIs.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a passionate JavaScript Developer with over 3 years of experience in building high-performance web applications. My expertise lies in frontend development and backend development with Node.js, creating seamless, user-friendly experiences.  
+
+I specialize in React and Redux Toolkit, crafting scalable and maintainable applications that enhance user interaction. With a strong foundation in JavaScript, I love solving complex problems and optimizing code for efficiency.  
+
+I'm always eager to learn new technologies and improve my skills. Whether it's developing intuitive UIs, optimizing API performance, or collaborating on innovative projects, I thrive on building impactful digital experiences.  
+
+🚀 Let's connect and build something amazing!`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2022 - Present",
+    role: "Software Developer",
+    company: "Konnectify",
+    description: `Designed and developed dynamic applications using JavaScript and Node.js, ensuring seamless functionality and optimal performance. Collaborated closely with clients to understand their requirements, delivering customized, high-quality solutions that enhance user experience and drive business success.`,
+    technologies: ["Javascript", "Node Js"],
   },
 ];
 
@@ -70,7 +55,11 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "13 Annamalai Avenue, Okkiyampet, Chennai ",
+  phoneNo: "+91 9500960553",
+  email: "nagamanickam@yahoo.com",
 };
+
+export const linkedInUrl = `http://www.linkedin.com/in/nagamanickam-selvam`;
+
+export const gitHubUrl = `https://github.com/manickamselvam`;

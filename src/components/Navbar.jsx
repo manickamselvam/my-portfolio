@@ -1,8 +1,10 @@
 import React from "react";
+
 import logo from "../assets/NAG-artist-Logo-New.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import { linkedInUrl, gitHubUrl } from "../constants";
 
 const Navbar = ({ contactSection }) => {
   const scrollToContact = () => {
@@ -19,8 +21,12 @@ const Navbar = ({ contactSection }) => {
         <img src={logo} alt="logo" className="h-14 w-14" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
         <FaPhoneAlt onClick={scrollToContact} />
       </div>
     </nav>

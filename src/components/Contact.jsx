@@ -9,7 +9,8 @@ const Contact = ({ contactSection }) => {
       <div className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href="yahoo.com" className="border-b">
+        {/* href={`mailto:${CONTACT.email}`} */}
+        <a href={`mailto:${CONTACT.email}`} className="border-b">
           {CONTACT.email}
         </a>
         {/* <HomeUp /> */}
